@@ -1371,3 +1371,34 @@
 		#footer .copyright {
 			font-size: 0.8em;
 		}
+
+		.typed-cursor {
+		    opacity: 1;
+		    -webkit-animation: blink 0.8s infinite;
+		    -moz-animation: blink 0.8s infinite;
+		    animation: blink 0.8s infinite;
+		}
+		@keyframes blink{
+		    0% { opacity:1; }
+		    50% { opacity:0; }
+		    100% { opacity:1; }
+		}
+		@-webkit-keyframes blink{
+		    0% { opacity:1; }
+		    50% { opacity:0; }
+		    100% { opacity:1; }
+		}
+		@-moz-keyframes blink{
+		    0% { opacity:1; }
+		    50% { opacity:0; }
+		    100% { opacity:1; }
+		}
+
+	#type, .typed-cursor {
+		color: #fff;
+		font-weight: 700;
+		margin: 0 0 1em 0;
+		letter-spacing: -0.01em;
+		font-size: 3.25em;
+		line-height: 1.25em;
+	}

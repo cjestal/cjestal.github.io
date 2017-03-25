@@ -6,6 +6,7 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" href="css/skel.css" />
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="css/style-xlarge.css" />
@@ -20,7 +21,7 @@
 		<!-- Banner -->
 		<section id="banner">
 			<div class="inner">
-				<h2>CLINT</h2>
+				<span id="type"></span>
 				<p>PHP. Javascript. Python. 日本語</p>
 				<ul class="actions">
 					<li><a href="#one" class="button big scrolly">Learn More</a></li>
@@ -31,9 +32,10 @@
 		<section id="one" class="wrapper style1">
 			<div class="container">
 				<header class="major">
-					<h2>... in a nutshell</h2>
+					<h2>... In a Nutshell</h2>
 					<p>I'm a PHP developer with 4 years experience in web development under my belt. I have worked on projects using various frameworks such as CodeIgniter, Yii2, Zend Framework, and Laravel. I am mostly exposed to the front-end aspect of web development, but my sql skills aren't too shabby.</p>
 				</header>
+				<div class="type"></div>
 				<div class="slider">
 					<span class="nav-previous"></span>
 					<div class="viewer">
@@ -71,15 +73,15 @@
 						</section>
 					</div>
 					<div class="4u$ 6u(2) 12u$(3)">
-						<section class="feature fa-save">
+						<section class="feature fa-html5">
 							<h3>HTML/CSS</h3>
 							<p>Yep. I can do HTML/CSS. <i class="fa fa-smile-o" aria-hidden="true"></i></p>
 						</section>
 					</div>
 					<div class="4u 6u$(2) 12u$(3)">
-						<section class="feature fa-desktop">
+						<section class="feature fa-language">
 							<h3>日本語</h3>
-							<p>I can read, write, and converse. Slightly above the basics.</p>
+							<p>I can read, write, and converse in Nihongo. Slightly above the basics.</p>
 						</section>
 					</div>
 					<div class="4u 6u(2) 12u$(3)">
@@ -176,4 +178,20 @@
 	<script src="js/skel.min.js"></script>
 	<script src="js/skel-layers.min.js"></script>
 	<script src="js/init.js"></script>
+	<script src="js/typed.min.js"></script>
+
+	<script>
+	  document.addEventListener('DOMContentLoaded', function(){
+	      Typed.new('#type', {
+	        strings: [
+	        	"Computer Engineer.", 
+	        	"Web Developer.", 
+	        	"Programmer.", 
+	        	"Clint James."
+	        ],
+	        backDelay: 900,
+	      });
+	  });
+	</script>
+
 </html>
