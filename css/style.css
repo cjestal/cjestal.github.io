@@ -42,7 +42,6 @@
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		color: #e0555a;
 		text-decoration: none;
-		border-bottom: dotted 1px;
 	}
 
 		a:hover {
@@ -518,8 +517,8 @@
 /* List */
 
 	ol {
-		list-style: decimal;
-		margin: 0 0 2em 0;
+		/*list-style: decimal;*/
+		margin: 0 0 1em 0;
 		padding-left: 1.25em;
 	}
 
@@ -528,8 +527,8 @@
 		}
 
 	ul {
-		list-style: disc;
-		margin: 0 0 2em 0;
+		/*list-style: disc;*/
+		margin: 0 0 1em 0;
 		padding-left: 1em;
 	}
 
